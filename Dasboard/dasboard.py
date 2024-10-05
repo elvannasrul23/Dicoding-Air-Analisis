@@ -6,9 +6,9 @@ import streamlit as st
 from datetime import datetime
 
 # Load datasets
-df1_cleaned = pd.read_csv('Dashboard/Guanyuan_cleaned.csv')
-df2_cleaned = pd.read_csv('Dashboard/Aotizhongxin_cleaned.csv')
-df3_cleaned = pd.read_csv('Dashboard/Tiantan_cleaned.csv')
+df1_cleaned = pd.read_csv('./Guanyuan_cleaned.csv')
+df2_cleaned = pd.read_csv('./Aotizhongxin_cleaned.csv')
+df3_cleaned = pd.read_csv('./Tiantan_cleaned.csv')
 
 # Convert date columns
 for df_cleaned in [df1_cleaned, df2_cleaned, df3_cleaned]:
@@ -27,7 +27,7 @@ pm25_trend_tiantan = df3_cleaned.groupby('date')['PM2.5'].mean().reset_index()
 
 # Streamlit sidebar
 st.sidebar.header('Air Quality Dashboard')
-st.sidebar.image("Dashboard/Air Quality.png")  
+st.sidebar.image("./Air Quality.png")  
 
 # Date input
 min_date = df1_cleaned['date'].min()
