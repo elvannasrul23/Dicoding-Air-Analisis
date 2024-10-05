@@ -54,6 +54,12 @@ air_analisis/
 │   └── Air Quality.png  
 │  
 └── notebook.ipynb  
+│  
+└── Readme.md   
+│  
+└── requirements.txt 
+│  
+└── url.txt 
 
 ### Step 7: Running the Dashboard  
 Once the analysis is done and the cleaned datasets are saved in the Dashboard folder, you can run the Streamlit dashboard.  
