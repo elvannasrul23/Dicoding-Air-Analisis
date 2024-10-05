@@ -47,9 +47,9 @@ air_analisis/
 │   ├── PRSA_Data_Tiantan_20130301-20170228.csv  
 │  
 ├── Dashboard/  
-│   ├── PGuanyuan_Cleaned.csv  
-│   ├── Aotizhongxin_Cleaned.csv  
-│   ├── Tiantan_Cleaned.csv  
+│   ├── Guanyuan_cleaned.csv  
+│   ├── Aotizhongxin_cleaned.csv  
+│   ├── Tiantan_cleaned.csv  
 │   ├── dashboard.py  
 │   └── Air Quality.png  
 │  
